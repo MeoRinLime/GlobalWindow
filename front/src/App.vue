@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import '../public/live2d-widget/autoload';
+// import '../public/live2d-widget/autoload';
 </script>
 
 <template>
