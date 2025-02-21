@@ -26,7 +26,7 @@ front/public/live2d-widget/src
 /nbproject/private/
 /nbbuild/
 # /dist/
-/nbdist/
+# /nbdist/
 /.nb-gradle/
 build/
 !**/src/main/**/build/
@@ -46,7 +46,7 @@ lerna-debug.log*
 
 node_modules
 # dist
-dist-ssr
+# dist-ssr
 *.local
 
 # Editor directories and files
