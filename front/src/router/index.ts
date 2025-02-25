@@ -6,7 +6,7 @@ import LoadingVue from '../views/Loading.vue'
 import MainPageVue from '../views/MainPage.vue'
 import NowadaysHotSpotsVue from '../views/NowadaysHotSpots.vue'
 import RecentEventsVue from '../views/RecentEvents.vue'
-import HotSpotsDeatilsVue from '../views/HotSpotsDetails.vue'
+import HotSpotsDetailsVue from '../views/HotSpotsDetails.vue'
 import SearcherVue from '../views/Searcher.vue'
 import SearchPage from '../views/SearchPage.vue'
 import EventDetailsVue from '../views/EventDetails.vue'
@@ -57,7 +57,7 @@ const router = createRouter({
         },
         {
           path: 'hotSpotsdetails/:keyword',
-          component: HotSpotsDeatilsVue,
+          component: HotSpotsDetailsVue,
           name:'keywordDetails',
           props: route=>({
             keyword: route.params.keyword
