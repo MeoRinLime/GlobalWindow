@@ -27,10 +27,14 @@ export default defineConfig({
     })
   ],
   build: {
+    target: 'esnext',
     rollupOptions: {
       output: {
-        format: 'esm'
+        format: 'es',
+        // 确保模块化输出
+        entryFileNames: 'assets/[name]-[hash].js',
+        chunkFileNames: 'assets/[name]-[hash].js'
       }
     }
-  }
+  },
 })

@@ -6,3 +6,8 @@ route = "globalwindow.meorin.top"
 compatibility_date = "2025-06-01"
 main = "src/main.ts"
 
+# 处理 SPA 路由
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
