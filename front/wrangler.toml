@@ -1,6 +1,6 @@
 name = "globalwindow"
 type = "typescript"
-account_id = "limeomie@gmail.com"
+account_id = "7b4af65587e7c245146bdd2be47e2989"
 workers_dev = false
 route = "globalwindow.meorin.top"
 compatibility_date = "2025-06-01"
