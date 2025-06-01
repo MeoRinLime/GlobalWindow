@@ -1,5 +1,5 @@
 <script setup lang="ts">
-// import '../public/live2d-widget/autoload';
+import 'https://globalwindow-live2d.meorin.top/autoload.js';
 </script>
 
 <template>
