@@ -25,5 +25,12 @@ export default defineConfig({
     Components({
       resolvers: [NaiveUiResolver()]
     })
-  ]
+  ],
+  build: {
+    rollupOptions: {
+      output: {
+        format: 'esm'
+      }
+    }
+  }
 })
