@@ -5,3 +5,4 @@ workers_dev = false
 route = "globalwindow.meorin.top"
 compatibility_date = "2025-06-01"
 main = "src/main.ts"
+
